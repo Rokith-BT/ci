@@ -1,0 +1,18 @@
+Prometheus Server:
+
+
+1. https://prometheus.io/download/
+2. https://prometheus.io/
+3. https://www.youtube.com/watch?v=n7WWme--U2I
+4. https://www.youtube.com/watch?v=0Ec_VeO60m8
+5. https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/
+
+-------------------------------------------------------------------------------------------------------------------------
+Blackbox, node exporter, alertmanager
+ 
+ 1.https://notes.kodekloud.com/docs/Prometheus-Certified-Associate-PCA/Prometheus-Fundamentals/Node-Exporter-systemd
+ 2.https://superuser.com/questions/1668654/systemd-user-doesnt-see-blackbox-exporter-config-file
+ 3.https://notes.kodekloud.com/docs/Prometheus-Certified-Associate-PCA/Alerting/Alertmanager-Installation-Systemd
+ 
+ -------------------------------------------------------------------------------------------------------------------------------
+ 1.https://shishirkh.medium.com/monitoring-stack-setup-part-4-blackbox-exporter-f7ba54d0ed99
