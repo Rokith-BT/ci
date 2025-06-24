@@ -51,7 +51,7 @@ jobs:
       - name: Deploy to Local Server
         if: env.target == 'local'  
         run: |
-          sudo cp -r $GITHUB_WORKSPACE/php-hms-frontend/* /var/www/php-hms-frontend/
+          sudo cp -r $GITHUB_WORKSPACE/* /var/www/php-hms-frontend/
 
 
       # Step 4: Deploy to AWS CodeDeploy 
