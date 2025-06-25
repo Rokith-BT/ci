@@ -69,7 +69,7 @@ jobs:
       - name: Create CodeDeploy Deployment
         if: env.target == 'cloud'  
         run: |
-          echo "Deploying to AWS CodeDeploy (Application: PHP-HMS, Group: $GROUP_NAME)"
+          echo "Deploying to AWS CodeDeploy (Application: PHP-HMS, Group: ${{ env.GROUP_NAME }})"
           aws deploy create-deployment \
             --application-name PHP-demo \
             --deployment-group-name $GROUP_NAME \
