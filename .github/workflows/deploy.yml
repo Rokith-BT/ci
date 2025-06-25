@@ -12,7 +12,8 @@ on:
 
 jobs:
   deploy:
-    runs-on: [ self-hosted, php-hms-localDev-runner ]
+    # runs-on: [ self-hosted, php-hms-localDev-runner ]
+    runs-on: ubuntu-latest
     
     steps:
     
