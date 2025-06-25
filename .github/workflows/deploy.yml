@@ -29,7 +29,7 @@ jobs:
             echo "Deploying to local server"
           elif [[ "$GITHUB_REF" == "refs/heads/cloudDev" ]]; then
             export DEPLOYMENT_TARGET="cloud"
-            export GROUP_NAME="cloud-dev-group"
+            export GROUP_NAME="cloudDev-group"
             echo "Deploying to AWS (DEV environment)"
           elif [[ "$GITHUB_REF" == "refs/heads/test" ]]; then
             export DEPLOYMENT_TARGET="cloud"
@@ -53,7 +53,7 @@ jobs:
         run: |
           sudo cp -r $GITHUB_WORKSPACE/* /var/www/php-hms-frontend/
           echo $PWD
-          sudo cp ~/env/.env.php /var/www/php-hms-frontend/
+          sudo cp ~/env/.env.php /var/www/php-hms-frontend/.env
 
 
       # Step 4: Deploy to AWS CodeDeploy 
